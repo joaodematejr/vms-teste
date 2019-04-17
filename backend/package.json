@@ -1,0 +1,49 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.4",
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.4",
+    "form-data": "^2.3.3",
+    "http-proxy": "^1.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "moment-timezone": "^0.5.23",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.2",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.1",
+    "node-gyp": "^3.8.0",
+    "pm2": "^3.5.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "rtsp-ffmpeg": "^0.0.14",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "stream-array": "^1.1.2",
+    "timeout-callback": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*"
+    ]
+  }
+}

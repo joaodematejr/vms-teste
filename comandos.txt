@@ -1,0 +1,33 @@
+
+IP Câmera
+http://192.168.1.130
+
+Rota Interfaces
+http://192.168.1.130:80/LAPI/V1.0/Network/Interfaces
+
+Rota DeviceInfo
+http://192.168.1.130:80/LAPI/V1.0/System/DeviceInfo
+
+Rota Horario
+http://192.168.1.130:80/LAPI/V1.0/System/Time
+
+Rota Reinciar Câmera
+http://192.168.1.130:80/LAPI/V1.0/System/Reboot
+
+Rota Atualizar Sistema
+http://192.168.1.130:80/LAPI/V1.0/System/Upgrade
+
+Rotas DNS
+http://192.168.1.130/LAPI/V1.0/Network/DNS
+
+Rota não sei 
+http://192.168.1.130/LAPI/V1.0/Channels/1/Image/Focus
+
+Rota Capabilities alarm
+http://192.168.1.130/LAPI/V1.0/Channels/1/Alarm/Capabilities    
+
+Rota 
+http://192.168.1.130/LAPI/V1.0/Channels/1/Smart/Capabilities
+
+//Roda Gerar RTSP
+http://192.168.1.130/LAPI/V1.0/Channels/1/Media/Video/Streams/0/LiveStreamURL?TransType=0&TransProtocol=0

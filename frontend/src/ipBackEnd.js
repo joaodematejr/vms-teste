@@ -1,0 +1,1 @@
+export const IP_BACK_END = 'http://localhost:9000';
